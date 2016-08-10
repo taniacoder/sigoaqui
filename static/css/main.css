@@ -22,20 +22,16 @@ h3 {
 }
 .resalt {
     background-color: #F71151;
-    margin-left: 1%;
-    margin-right: 1%;
-    position: absolute;
-    width: 10%;
+    position: relative;
+    width: 150px;
     height: 32px;
     margin: auto;
-    left: 45%;
-    z-index: 1;
 }
 .hashtag {
-    position: relative;
-    z-index: 2;
     margin-top: 0;
     font-family: oswald;
+    position: relative;
+    bottom: 32px;
 }
 .intro {
     font-size: 2.5rem;
@@ -94,6 +90,15 @@ h3 {
 }
 .txt-c {
     text-align: center;
+}
+.name {
+    font-size: 3.5rem;
+}
+.testimonio{
+    font-size: 1.7rem;
+}
+.c-rosa {
+    color: #F71151
 }
 
 .img-foto1 {
@@ -198,8 +203,8 @@ h3 {
 
 }
 @media (min-width: 992px) and (max-width: 1200px){
-        .img-agresor{
-    width: 50%;
+    .img-agresor{
+    width: 80%;
     }
     .container{
         width: 750px;
