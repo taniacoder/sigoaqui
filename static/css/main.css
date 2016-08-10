@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+body{
+    font-family: "Bitter";
+}
+h3 {
+    color: #F71151;
+
+}
+#section1{
+    color: #fff;
+    text-align: center;
+}
+.fondo {
+    padding: 1% 0;
+    background: url(../images/fondo.jpg) no-repeat;
+    background-size: cover;
+}
+.logo {
+    width: 50%;
+    margin: auto;
+}
+.resalt {
+    background-color: #F71151;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: absolute;
+    width: 10%;
+    height: 32px;
+    margin: auto;
+    left: 45%;
+    z-index: 1;
+}
+.hashtag {
+    position: relative;
+    z-index: 2;
+    margin-top: 0;
+    font-family: oswald;
+}
+.intro {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 3%; 
+}
+
+#myCarousel {
+    display: none; 
+}
+.mg-a {
+    margin: auto;
+}
+.img-w {
+    width: 96%;
+}
+/*videos*/
+.foto {
+    position: relative;
+    margin: 3% 0 0;
+    padding: 8px;
+    display: inline-block;
+}
+.fa{
+    color: #fff;
+    position: absolute;
+    left: 44%;
+    top: 39%;
+    font-size: 3em;
+}
+
+/*modal*/
+.fade.in {
+    background: rgba(0, 0, 0, 0.8);
+}
+.modal-dialog {
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 65%;
+    margin-top: 5%;
+    color: #fff;
+}
+.modal-content {
+    background: transparent;
+}
+.modal-header{
+    border-bottom: none;
+}
+.img-agresor{
+   width: 50%;
+}
+.text-modal{
+    position: absolute;
+    right: 0;
+}
+.txt-c {
+    text-align: center;
+}
+
+.img-foto {
+    background-image: url("../images/kristel.jpg");
+        -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+    height: 367px;
+    width: 100%;
+}
+.close {
+    border: 2px #fff;
+    color: #F71151;
+    font-size: 5rem;
+    opacity: 5;
+}
+.close:hover {
+    color: #F71151;
+}
+
+
+/*media*/
+
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+    .img-foto {
+        height: 325px;
+    }
+}
+@media only screen and (min-width: 1342px) {
+    .container {
+    width: 1311px;
+    }
+    .img-foto {
+        height: 325px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+
+    .text-modal{
+    position:relative;
+    right: 0;
+    }
+    .img-agresor{
+    width: 100%;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1200px){
+        .img-agresor{
+    width: 50%;
+    }
+    .container{
+        width: 750px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .logo {
+    width: 100%;
+    margin: auto;
+    }
+    #cuadrados {
+        display: none;
+    }
+     #myCarousel {
+    display: inherit; 
+     }
+     .mg-a{
+    width: 50%;
+         }
+    .modal-dialog {
+    width: 100%;
+    }
+    .img-agresor{
+    width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3%; 
+    }
+
+}
+
+
+/*geny*/
+body {
+  overflow-x: hidden;
+}
+
+.cifras {
+  color: #333333;
+  font-weight: 700;
+  font-size: 6rem;
+  padding-top: 21px;
+  padding-bottom: 0px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+@media screen and (max-width: 767px) {
+  .cifras {
+    font-size: 4rem;
+  }
+}
+
+#estadisticas {
+  font-family: "Bitter";
+}
+
+.lead {
+  color: #F0104E;
+}
+
+@media screen and (max-width: 767px) {
+  #legend {
+    left: -63px;
+  }
+  #legend tbody {
+    font-size: 1rem;
+  }
+  .est-2 {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  #legend {
+    left: -14px;
+  }
+  #legend tbody {
+    font-size: 1rem;
+  }
+  #legend th {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .container {
+    width: 75%;
+  }
+}
