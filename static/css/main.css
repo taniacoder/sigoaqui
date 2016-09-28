@@ -1,85 +1,3 @@
-<<<<<<< HEAD
-@import url(https://fonts.googleapis.com/css?family=Bitter);
-@import url(https://fonts.googleapis.com/css?family=Oswald);
-
-h3 {
-    color: #F71151;
-}
-.la-republica{
-  background-color: #F0104E;
-  height: 48px;
-}
-  .v-center{
-  display: -ms-flexbox;
-  display: flex;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -ms-flex-align: center;
-        align-items: center;
-    -ms-flex-pack: center;
-        justify-content: center;
-}
-
-#testimonios{
-    color: #fff;
-}
-.fondo {
-    background: url(../images/fondo.jpg) no-repeat;
-    background-size: cover;
-}
-.fb{
-  position: relative;
-    bottom: 7px;
-}
-
-#hashtag span{
-background-color: #F71151;
-}
-
-.img-foto-1{
-  background: url(../images/kristel.jpg) no-repeat;
-    background-size: cover;
-}
-.img-foto-2{
-  background: url(../images/victoria.jpg) no-repeat;
-    background-size: cover;
-}
-.img-foto-3{
-  background: url(../images/analia.jpg) no-repeat;
-    background-size: cover;
-}
-.img-foto-4{
-  background: url(../images/yovana.jpg) no-repeat;
-    background-size: cover;
-}
-.img-foto-5{
-  background: url(../images/jemmy.jpg) no-repeat;
-    background-size: cover;
-}
-.img-foto-6{
-  background: url(../images/adriana.jpg) no-repeat;
-    background-size: cover;
-}
-
-.hashtag {
-    position: relative;
-    z-index: 2;
-    margin-top: 0;
-    font-family: oswald;
-}
-
-.intro {
-   font-size: 3rem;
-    margin-top: 3%;
-    padding: 0 49px;
-}
-.translate_button{
-      -webkit-transform: translate(3%, 177%);
-       -moz-transform: translate(3%, 177%);
-        -ms-transform: translate(3%, 177%);
-         -o-transform: translate(3%, 177%);
-            transform: translate(3%, 177%);
-=======
 @charset "UTF-8";
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -7741,7 +7659,6 @@ button.close {
   .visible-lg-inline-block {
     display: inline-block !important;
   }
->>>>>>> c758430636e3fafdf4df694caeb1c808e865e666
 }
 
 @media (max-width: 767px) {
@@ -7749,22 +7666,6 @@ button.close {
     display: none !important;
   }
 }
-<<<<<<< HEAD
-.img-carousel{
-  margin: auto;
-}
-
-.img-w {
-    width: 96%;
-}
-/*videos*/
-.foto {
-    margin: 3% 0 0;
-    padding: 8px;
-}
-.fa{
-    color: #fff;
-=======
 
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
@@ -7786,7 +7687,6 @@ button.close {
 
 .visible-print {
   display: none !important;
->>>>>>> c758430636e3fafdf4df694caeb1c808e865e666
 }
 
 @media print {
@@ -7828,14 +7728,6 @@ button.close {
 .visible-print-inline-block {
   display: none !important;
 }
-<<<<<<< HEAD
-
-.close {
-    border: 2px #fff;
-    color: #F71151;
-    font-size: 4rem;
-    opacity: 5;
-=======
 
 @media print {
   .visible-print-inline-block {
@@ -7906,41 +7798,11 @@ button.close {
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 30px;
->>>>>>> c758430636e3fafdf4df694caeb1c808e865e666
 }
 
 main {
   flex: 1 0 auto;
 }
-<<<<<<< HEAD
-.testimonio{
-  font-size:18px;
-}
-.img-foto {
-  height: 325px;
-}
-
-.mb-50{
-  margin-bottom:50px;
-}
-.mt-48{
-  margin-top: 48px;
-}
-/*media*/
-.img-agresor{
-    width: 90%;
-}
-
-@media only screen and (max-width: 767px) {
-    .logo {
-    width: 100%;
-    margin: auto;
-    }
-     #myCarousel {
-    display: block; 
-     }
-    .modal-dialog {
-=======
 
 .hoverinfo {
   padding: 0 !important;
@@ -8248,7 +8110,6 @@ h3 {
     margin: auto;
   }
   .modal-dialog {
->>>>>>> c758430636e3fafdf4df694caeb1c808e865e666
     width: 100%;
   }
   #myCarousel {
@@ -8256,27 +8117,6 @@ h3 {
   }
   .img-agresor {
     width: 50%;
-<<<<<<< HEAD
-    }
-    .addthis{
-    position: relative;
-      left: 14px;
-    }
-    .img-foto-1, .img-foto-2, .img-foto-3, .img-foto-4, .img-foto-5, .img-foto-6{
-          width:165px; 
-          height:299px;
-    }
-    .intro {
-    font-size: 2rem;
-    margin-top: 3%;
-    }
-}
-
-/*geny*/
-body {
-  overflow-x: hidden;
-  font-family: "Bitter";
-=======
   }
   .addthis {
     position: relative;
@@ -8295,7 +8135,6 @@ body {
 body {
   overflow-x: hidden;
   font-family: Bitter;
->>>>>>> c758430636e3fafdf4df694caeb1c808e865e666
 }
 
 .cifras {
@@ -8311,13 +8150,6 @@ body {
   left: -21px;
   max-width: 220px;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 767px) {
-  .cifras {
-    font-size: 4rem;
-  }
-}
-=======
 
 .box-creditos {
   padding: 21px 0;
@@ -8362,7 +8194,6 @@ ul {
   margin: 35px 0 80px;
 }
 
->>>>>>> c758430636e3fafdf4df694caeb1c808e865e666
 .lead {
   color: #f71151;
 }
@@ -8385,11 +8216,7 @@ ul {
 
 @media screen and (max-width: 410px) {
   #legend {
-<<<<<<< HEAD
-   left: -21px;
-=======
     left: -21px;
->>>>>>> c758430636e3fafdf4df694caeb1c808e865e666
   }
   #legend tbody {
     font-size: 1rem;
@@ -8403,11 +8230,6 @@ ul {
   .container {
     width: 75%;
   }
-<<<<<<< HEAD
-  .modal-title{
-    font-size:35px;
-  }
-=======
   .modal-title {
     font-size: 35px;
   }
@@ -8453,6 +8275,4 @@ ul {
 .lead {
   font-size: 25px;
   /*no encuentro este scss por eso cree otro*/
->>>>>>> c758430636e3fafdf4df694caeb1c808e865e666
 }
-
