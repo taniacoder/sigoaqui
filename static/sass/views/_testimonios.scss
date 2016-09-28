@@ -138,6 +138,7 @@ h3 {
 body {
   overflow-x: hidden;
   font-family: $font_bitter;
+
 }
 .cifras {
   color: $very_dark_gray;
@@ -256,4 +257,7 @@ ul {
 }
 .lead {
     font-size: 25px; /*no encuentro este scss por eso cree otro*/
+}
+.text-muted {
+    font-size: 15px;
 }
