@@ -7766,6 +7766,10 @@ button.close {
   margin-top: 48px;
 }
 
+.mt-70 {
+  margin-top: 70px;
+}
+
 .v-center {
   display: flex;
   align-content: center;
@@ -7961,6 +7965,10 @@ main {
   margin-top: 48px;
 }
 
+.mt-70 {
+  margin-top: 70px;
+}
+
 .v-center {
   display: flex;
   align-content: center;
@@ -7974,7 +7982,7 @@ main {
 
 .fb {
   position: relative;
-  bottom: 7px;
+  bottom: 5px;
 }
 
 .hashtag {
@@ -8183,7 +8191,7 @@ ul {
 }
 
 #cuadro {
-  margin: 35px 0 49px;
+  margin: 35px 0 80px;
 }
 
 .lead {
@@ -8236,7 +8244,6 @@ ul {
 }
 
 .logo-footer img {
-  width: 200px;
   height: 48px;
   padding-left: 32px;
 }
