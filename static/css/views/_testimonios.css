@@ -1,0 +1,336 @@
+.hero-image {
+  width: 100%;
+  height: 100%;
+}
+
+.mg-0 {
+  margin: 0px !important;
+}
+
+.mt-21 {
+  margin-top: 21px;
+}
+
+.pd-0 {
+  padding: 0px !important;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mt-48 {
+  margin-top: 48px;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+.v-center {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-top: 40px;
+}
+
+.fb {
+  position: relative;
+  bottom: 5px;
+}
+
+.hashtag {
+  position: relative;
+  z-index: 2;
+  margin-top: 0;
+  font-family: oswald;
+}
+
+h3 {
+  color: #f71151;
+}
+
+#testimonios, .fa {
+  color: #fff;
+}
+
+.la-republica {
+  background-color: #f71151;
+  height: 48px;
+}
+
+.fondo {
+  background: url(../images/fondo.jpg) no-repeat;
+  background-size: cover;
+}
+
+.img-foto-1 {
+  background: url(../images/kristel.jpg) no-repeat;
+  background-size: cover;
+}
+
+.img-foto-2 {
+  background: url(../images/victoria.jpg) no-repeat;
+  background-size: cover;
+}
+
+.img-foto-3 {
+  background: url(../images/analia.jpg) no-repeat;
+  background-size: cover;
+}
+
+.img-foto-4 {
+  background: url(../images/yovana.jpg) no-repeat;
+  background-size: cover;
+}
+
+.img-foto-5 {
+  background: url(../images/jemmy.jpg) no-repeat;
+  background-size: cover;
+}
+
+.img-foto-6 {
+  background: url(../images/adriana.jpg) no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  font-size: 3rem;
+  margin-top: 3%;
+  padding: 0 49px;
+}
+
+.translate_button {
+  transform: translate(3%, 177%);
+}
+
+#myCarousel {
+  display: none;
+}
+
+.img-carousel {
+  margin: auto;
+}
+
+.img-w {
+  width: 96%;
+}
+
+.foto {
+  margin: 3% 0 0;
+  padding: 8px;
+}
+
+.modal-dialog {
+  margin: 5% auto 0;
+  width: 65%;
+  color: #fff;
+}
+
+.close {
+  color: #f71151;
+  border: 2px #fff;
+  font-size: 4rem;
+  opacity: 5;
+}
+
+.close:hover {
+  color: #f71151;
+}
+
+.modal-content {
+  background: 0 0;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.testimonio {
+  font-size: 18px;
+}
+
+.img-foto {
+  height: 325px;
+}
+
+.img-agresor {
+  width: 90%;
+}
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    width: 100%;
+    margin: auto;
+  }
+  .modal-dialog {
+    width: 100%;
+  }
+  #myCarousel {
+    display: block;
+  }
+  .img-agresor {
+    width: 50%;
+  }
+  .addthis {
+    position: relative;
+    left: 14px;
+  }
+  .img-foto-1, .img-foto-2, .img-foto-3, .img-foto-4, .img-foto-5, .img-foto-6 {
+    width: 165px;
+    height: 299px;
+  }
+  .intro {
+    font-size: 2rem;
+    margin-top: 3%;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Bitter;
+}
+
+.cifras {
+  color: #333;
+  font-weight: 700;
+  font-size: 6rem;
+  padding: 60px 7px 0;
+}
+
+#legend {
+  position: absolute;
+  bottom: 0;
+  left: -21px;
+  max-width: 220px;
+}
+
+.box-creditos {
+  padding: 21px 0;
+  margin-bottom: 48px;
+}
+
+.box-creditos h4 {
+  color: #cf0329;
+}
+
+a:active {
+  text-decoration: none;
+  color: #777;
+}
+
+a:focus {
+  text-decoration: none;
+  color: #777;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #777;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #777;
+}
+
+.separador {
+  color: #e7e7e7;
+  height: 1px;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#cuadro {
+  margin: 35px 0 80px;
+}
+
+.lead {
+  color: #f71151;
+}
+
+@media screen and (max-width: 767px) {
+  .cifras {
+    font-size: 4rem;
+  }
+  #legend {
+    left: -63px;
+    max-width: 180px;
+  }
+  #legend tbody {
+    font-size: 1rem;
+  }
+  .est-2 {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  #legend {
+    left: -21px;
+  }
+  #legend tbody {
+    font-size: 1rem;
+  }
+  #legend th {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .container {
+    width: 75%;
+  }
+  .modal-title {
+    font-size: 35px;
+  }
+}
+
+#hashtag span {
+  background-color: #f71151;
+}
+
+.fade.in {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.logo-footer img {
+  height: 48px;
+  padding-left: 32px;
+}
+
+.creditos a {
+  text-decoration: none;
+  color: #777;
+}
+
+/*sol*/
+.fa-chevron-left {
+  left: 50%;
+  margin-left: -10px;
+}
+
+.fa-chevron-right {
+  right: 50%;
+  margin-left: -10px;
+}
+
+.flechas {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  z-index: 5;
+  display: inline-block;
+}
+
+.lead {
+  font-size: 25px;
+  /*no encuentro este scss por eso cree otro*/
+}
